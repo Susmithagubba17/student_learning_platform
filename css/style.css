@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f4f6f9;
+    transition: 0.3s;
+}
+
+.dark {
+    background: #121212;
+    color: white;
+}
+
+.auth-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.dark .card {
+    background: #1e1e1e;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+.navbar {
+    padding: 15px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dark .navbar {
+    background: #1e1e1e;
+}
+
+.container {
+    padding: 30px;
+}
+
+.progress-bar {
+    width: 100%;
+    background: #ddd;
+    height: 20px;
+    border-radius: 10px;
+}
+
+#progressFill {
+    height: 100%;
+    width: 0%;
+    background: #4f8cff;
+    border-radius: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
